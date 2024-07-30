@@ -136,9 +136,6 @@ parameters:
       might be removed once https://issues.jboss.org/browse/JGRP-2292 is
       implemented.
     required: true
-  - name: NAMESPACE
-    displayName: Namespace used for DNS discovery
-    required: true
   - name: KC_DB
     displayName: KC_DB used for DB
     required: true
