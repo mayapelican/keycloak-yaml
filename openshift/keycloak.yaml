@@ -1,7 +1,7 @@
 kind: Template
 apiVersion: template.openshift.io/v1
 metadata:
-  name: keycloakv4
+  name: keycloak
   annotations:
     description: An example template for trying out Keycloak on OpenShift
     iconClass: icon-sso
