@@ -7,7 +7,7 @@ metadata:
     iconClass: icon-sso
     openshift.io/display-name: Keycloak
     tags: keycloak
-    version: 25.0.2
+    version: 26.0.0
 objects:
   - apiVersion: v1
     kind: Service
@@ -75,7 +75,7 @@ objects:
                   value: '${KC_DB_PASSWORD}'
                 - name: KC_PROXY
                   value: 'edge'
-              image: quay.io/keycloak/keycloak:25.0.2
+              image: quay.io/keycloak/keycloak:26.0.0
               livenessProbe:
                 failureThreshold: 100
                 httpGet:
